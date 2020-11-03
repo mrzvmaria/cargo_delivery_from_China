@@ -1,0 +1,24 @@
+.header_btn {
+    width: 160px;
+    height: 44px;
+    background-color: $main-color;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.big_btn {
+    width: 232px;
+    height: 58px;
+    background-color: $main-color;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+}

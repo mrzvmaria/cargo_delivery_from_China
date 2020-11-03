@@ -1,0 +1,11 @@
+@import 'base/variables';
+
+@import 'blocks/_promo';
+@import 'blocks/header';
+@import 'blocks/icons';
+@import 'blocks/buttons';
+
+.container {
+    max-width: 1169px;
+    margin: 0 auto;
+}

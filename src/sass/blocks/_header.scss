@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+    .header_tabs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &_tab {
+            // margin-right: 28px;
+            padding-right: 14px;
+            margin-left: 14px;
+            text-decoration: none;
+            font-size: 15px;
+            color: #ffffff;
+            border-right: dotted #858891 1px;
+            &:first-child {
+                margin-left: 0px;
+            }
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+    .header_connect {
+        &_question {
+            text-align: right;
+            font-size: 14px;
+            color: #ffffff;
+        }
+        &_tel {
+            font-size: 19px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+}
+
