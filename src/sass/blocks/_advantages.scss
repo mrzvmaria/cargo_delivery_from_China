@@ -1,0 +1,31 @@
+.advantages {
+    min-height: 589px;
+    background-color: #f3f3f3;
+    padding: 57px 0 51px;
+    &_img {
+        padding-top: 7px;
+        width: 50px;
+        height: 50px;
+        img {
+            display: block;
+            margin: 0 auto;
+            height: auto;
+        }
+    }
+    &_info {
+        &_heading {
+            font-size: 16px;
+            color: $main_color;
+        }
+        &_text {
+            font-size: 14px;
+            color: #3a3a3a;
+        }
+    }
+    &_item {
+        margin-bottom: 33px;
+    }
+    .section_heading {
+        margin-bottom: 35px;
+    }
+}
